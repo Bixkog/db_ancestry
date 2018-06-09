@@ -1,0 +1,2 @@
+{ "open": { "database": "student", "login": "init", "password": "qwerty"}}
+{ "root": { "secret": "qwerty", "newpassword": "qwerty", "data": "dane prezesa", "emp":0} }

@@ -1,0 +1,19 @@
+{ "open": { "database": "student", "login": "app", "password": "qwerty"}}
+{ "new": { "admin": 0, "passwd": "123456", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":0, "emp":1 } }
+{ "new": { "admin": 0, "passwd": "qwerty", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":0, "emp":1 } }
+{ "new": { "admin": 0, "passwd": "qwerty", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":1, "emp":2 } }
+{ "new": { "admin": 0, "passwd": "qwerty", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":1, "emp":3 } }
+{ "new": { "admin": 0, "passwd": "qwerty", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":2, "emp":4 } }
+{ "new": { "admin": 0, "passwd": "qwerty", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":2, "emp":5 } }
+{ "new": { "admin": 0, "passwd": "qwerty", "data":"dane wiceprezesa", "newpasswd":"qwerty", "emp1":4, "emp":6 } }
+{ "ancestor" : {"admin": 0, "passwd": "qwerty", "emp1" : 3, "emp2" : 1}}
+{ "ancestors" : {"admin": 0, "passwd": "qwerty", "emp" : 2}}
+{ "descendants" : {"admin": 0, "passwd": "qwerty", "emp" : 1}}
+{ "child" : {"admin": 0, "passwd": "qwerty", "emp" : 1}}
+{ "read" : {"admin": 0, "passwd": "qwerty", "emp" : 1}}
+{ "update" : {"admin": 0, "passwd": "qwerty", "emp" : 1, "newdata": "test2"}}
+{ "read" : {"admin": 0, "passwd": "qwerty", "emp" : 1}}
+{ "descendants" : {"admin": 0, "passwd": "qwerty", "emp" : 1}}
+{ "ancestors" : {"admin": 0, "passwd": "qwerty", "emp": 5}}
+{ "remove" : {"admin": 0, "passwd": "qwerty", "emp": 3}}
+{ "descendants" : {"admin": 0, "passwd": "qwerty", "emp" : 1}}

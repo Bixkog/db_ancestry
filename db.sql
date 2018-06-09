@@ -1,7 +1,7 @@
 CREATE TABLE users(
 	userId numeric PRIMARY KEY NOT NULL,
 	data varchar(100),
-	password varchar(20) NOT NULL 	
+	password varchar(100) NOT NULL 	
 );	
 
 CREATE TABLE ancestry(
@@ -10,9 +10,9 @@ CREATE TABLE ancestry(
 );
 
 ALTER TABLE ancestry ADD CONSTRAINT ancestor_userid FOREIGN KEY (ancestorId)
-    REFERENCES users(userId);
+    REFERENCES users(userId) ON DELETE CASCADE;
 
 ALTER TABLE ancestry ADD CONSTRAINT descendant_userid FOREIGN KEY (descendantId)
-    REFERENCES users(userId);
+    REFERENCES users(userId) ON DELETE CASCADE;
 
-CREATE USER app PASSWORD 'qwerty'; 
+-- CREATE USER app PASSWORD 'qwerty' SUPERUSER; 
